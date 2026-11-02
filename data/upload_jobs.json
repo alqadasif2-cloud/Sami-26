@@ -1,0 +1,73 @@
+{
+  "job_1793596811661_04068a2c": {
+    "uploadJobId": "job_1793596811661_04068a2c",
+    "idempotencyKey": "test-idemp-1793596811545",
+    "state": "CANCELLED",
+    "stageIndex": 1,
+    "stageNameAr": "تم إلغاء العملية",
+    "phaseLabelAr": "تم إلغاء عملية الرفع من قبل المستخدم",
+    "percent": 0,
+    "stage1Percent": 0,
+    "stage2Percent": 0,
+    "bytesTransferred": 0,
+    "totalBytes": 5242880,
+    "bytesSentToGitHub": 0,
+    "fileName": "sami-v2.4.0.apk",
+    "fileSize": 5242880,
+    "sha256": "",
+    "description": "",
+    "isMandatory": false,
+    "minSupportedVersionCode": 0,
+    "publishedBy": "القائد Sami",
+    "createdAt": 1793596811661,
+    "updatedAt": 1793596811676
+  },
+  "job_1793596811682_13d54c1b": {
+    "uploadJobId": "job_1793596811682_13d54c1b",
+    "idempotencyKey": "idemp-upload-test-1793596811680",
+    "state": "FAILED",
+    "stageIndex": 3,
+    "stageNameAr": "فشل الفحص",
+    "phaseLabelAr": "الملف لا يحتوي على AndroidManifest.xml صالح",
+    "percent": 50,
+    "stage1Percent": 100,
+    "stage2Percent": 0,
+    "bytesTransferred": 22,
+    "totalBytes": 22,
+    "bytesSentToGitHub": 0,
+    "fileName": "sami-release-test.apk",
+    "fileSize": 22,
+    "sha256": "",
+    "description": "",
+    "isMandatory": false,
+    "minSupportedVersionCode": 0,
+    "publishedBy": "القائد Sami",
+    "createdAt": 1793596811682,
+    "updatedAt": 1793596811759,
+    "tempFilePath": "/tmp/sami_apk_uploads/sami_upload_job_1793596811682_13d54c1b_1793596811686.apk.tmp",
+    "error": "الملف لا يحتوي على AndroidManifest.xml صالح",
+    "inspection": {
+      "valid": false,
+      "versionName": "1.3.0",
+      "versionCode": 13,
+      "applicationId": "com.sami.tradingchallengetracker",
+      "fileSize": 22,
+      "fileName": "sami-release-test.apk",
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "signingCertificate": null,
+      "originalKeyStatus": {
+        "available": true,
+        "sha256Fingerprint": "6E:38:3D:AB:3B:DA:2C:B8:1D:EA:F2:52:0A:9B:27:7B:C5:29:26:3A:01:F2:27:21:47:07:F6:C6:6E:26:D4:07",
+        "sha256Hex": "6E383DAB3BDA2CB81DEAF2520A9B277BC529263A01F227214707F6C66E26D407",
+        "subject": "CN=Sami Trading Challenge Tracker, OU=Android, O=Sami, C=YE",
+        "error": null
+      },
+      "errors": [
+        "الملف لا يحتوي على AndroidManifest.xml صالح"
+      ],
+      "warnings": [
+        "الملف لا يحتوي على ملفات classes.dex"
+      ]
+    }
+  }
+}
